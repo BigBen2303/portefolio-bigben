@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de BROU BETHSALEEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#accueil">BROU BETHSALEEL</a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#menu" 
+        aria-controls="menu" 
+        aria-expanded="false" 
+        aria-label="Afficher ou masquer le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="accueil" class="text-center py-5 bg-white text-dark">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">HELLLO ICI ,BROU BETHSALEEL</h1>
+      <p class="lead col-lg-8 mx-auto mt-3">
+     bienvenue chez moi
+ vous trouverez un bout de mon parcours, mes créations et tout ce qui me fait vibrer. J'ai conçu ce portfolio comme une vitrine de mon travail, mais surtout de ma passion. Bonne visite !
+      <a href="#projets" class="btn btn-primary btn-lg mt-3">Voir mes projets</a>
+    </div>
+  </section>
+
+  <section id="apropos" class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-4 text-center">
+          <img src="IMAGE/PHOTO1.jpeg" class="img-fluid rounded-circle" alt="Photo de profil">
+        </div>
+        <div class="col-md-8">
+         <h2 class="mb-3">À propos</h2>
+         <p>Doté d'un profil hybride entre administration réseau, gestion de serveurs et programmation, j'aborde les projets d'infrastructure avec une vision offensive et globale.
+Je conçois des environnements virtualisés optimisés et je les blinde en automatisant la défense via des scripts d'administration. Passionné par le hacking éthique et l'univers crypto / blockchain,<br> mon cursus en cybersécurité me permet d'intégrer les bonnes pratiques de protection à chaque étape, du déploiement à l'exploitation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="mb-4">Compétences</h2>
+      <ul class="list-unstyled d-flex flex-wrap gap-2">
+        <li class="badge text-bg-primary fs-6">HTML5</li>
+        <li class="badge text-bg-primary fs-6">CSS3</li>
+        <li class="badge text-bg-primary fs-6">cryptomonnaie</li>
+        <li class="badge text-bg-primary fs-6">JavaScript</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projets" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Projets</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="liste-projets">
+        <article class="col">
+          <div class="card carte-projet h-100">
+            <img src="IMAGE/photo 2.jpeg" class="card-img-top" alt="Capture du projet 1">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">presentation de mes actifs</h3>
+              <p class="card-text flex-grow-1">quelque piece que j'ai.</p>
+              <a href="#" class="btn btn-primary mt-auto">Voir le projet</a>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="card carte-projet h-100">
+            <img src="IMAGE/photo 4.jpeg" class="card-img-top" alt="Capture du projet 2">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">app web de rencontre en ligne</h3>
+              <p class="card-text flex-grow-1">qui a permis a plusieurs utilisateurs de se faire des connaissance partout dans le monde.</p>
+              <a href="#" class="btn btn-primary mt-auto">Voir le projet</a>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="card carte-projet h-100">
+            <img src="IMAGE/photo 3.jpeg" class="card-img-top" alt="Capture du projet 3">
+            <div class="card-body d-flex flex-column">
+              <h3 class="card-title h5">createur de l'entreprise tesla</h3>
+              <p class="card-text flex-grow-1">une entreprise qui a revolutionner le monde de la technologie</p>
+              <a href="#" class="btn btn-primary mt-auto">Voir le projet</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="mb-4">Questions fréquentes</h2>
+      <div class="accordion" id="accordeon-faq">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+              Quels types de projets réalisez-vous ?
+            </button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordeon-faq">
+            <div class="accordion-body">
+              Je conçois des applications web modernes, des scripts d'automatisation et des architectures réseaux sécurisées. Mon travail couvre aussi bien l'intégration front-end responsive que la configuration d'infrastructures et la sécurité.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordeon-faq">
+            <div class="accordion-body">
+              Côté développement, j'utilise principalement HTML5, CSS3/Bootstrap, Python et C. Pour la partie réseau et systèmes, je travaille régulièrement avec les solutions Cisco (Packet Tracer), l'administration Linux/Windows Server et les environnements de virtualisation.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              Êtes-vous disponible pour un stage, de l'alternance ou du freelance ?
+            </button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordeon-faq">
+            <div class="accordion-body">
+              Oui, je suis actuellement ouvert aux opportunités  N'hésitez pas à me contacter via la section contact pour discuter de votre projet.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <h2 class="mb-4">Contact</h2>
+          <form id="form-contact" >
+            <div class="mb-3">
+              <label for="nom" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+          <div id="form-message" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-4 bg-dark text-white text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2026 BIGBEN. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
